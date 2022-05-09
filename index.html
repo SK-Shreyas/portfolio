@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
-    <title>Minimal | Bootstrap portfolio template</title>
+    <title>Shreyas's Portfolio | Home</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -14,39 +15,46 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
+    <!-- Replace Favicon with custom logo-->
     <link rel="shortcut icon" href="img/favicon.png">
   </head>
+
   <body>
     <div class="sidebar">
+
       <div class="sidebar-inner d-flex flex-column">
+        <!--replace with custom logo as soon as possible-->
         <div class="px-4 py-5"><a href="index.html"><img src="img/logo.svg" alt="" width="90"></a></div>
         <div class="sidebar-menu-holder flex-grow-1">
           <ul class="sidebar-menu list-unstyled">
+
             <li class="mb-2 pb-1">
               <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm active" href="index.html">Home</a>
             </li>
             <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="text.html">About</a>
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="resume.html">About Me</a>
             </li>
             <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="detail.html">Detail</a>
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="projects.html">Projects</a>
             </li>
+
           </ul>
         </div>
+
         <div class="px-4 py-3">
           <ul class="list-inline list-social mb-3">
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-twitter"></i></a></li>
             <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-instagram"></i></a></li>
             <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-dribbble"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fas fa-envelope"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-youtube"></i></a></li>
           </ul>
         </div>
+
       </div>
+    <!-- sidebar div end-->  
     </div>
+
     <div class="page-holder">
+
       <div class="px-4 d-block d-lg-none">
         <!-- navbar-->
         <header class="header">
@@ -59,234 +67,131 @@
           </nav>
         </header>
       </div>
+
       <div class="px-4 py-5">
         <div class="container-fluid">
           <div class="row gy-4 gx-5 masonry-wrapper">
+
+            <!-- grid icon entry one. Adjust links after initial deployment -->
             <div class="col-lg-4 col-md-6 grid-item">
               <div class="listing-item ps-0">
                 <div class="position-relative">
                   <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-1.jpg" alt="Treasure"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="printer.html">IN PROGRESS</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="projects.html"><img class="img-fluid rounded-lg" src="img/portfolio-1.jpg" alt="DLP 3D Printer"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Check it out!</span>
+                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
+                        <use xlink:href="#arrow-right-1"> </use>
+                      </svg>
+                    </p></a>
+                </div>
+                <div class="py-3"><a class="reset-anchor" href="printer.html">
+                    <h2 class="h5 listing-item-heading">Project: DLP 3D Printer</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">A custom 3D printer that uses resin and digital light projection to make prints.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- grid icon entry two -->
+            <div class="col-lg-4 col-md-6 grid-item">
+              <div class="listing-item ps-0">
+                <div class="position-relative">
+                  <ul class="list-inline listing-tags m-0">
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">IN PROGRESS</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-2.jpg" alt="FPV Drone"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Check it out!</span>
                       <svg class="svg-icon text-primary svg-icon-sm ms-1">
                         <use xlink:href="#arrow-right-1"> </use>
                       </svg>
                     </p></a>
                 </div>
                 <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Treasure</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <h2 class="h5 listing-item-heading">Project: FPV Drone</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">A custom long-range 7-inch drone with computer vision capabilities.</p>
                 </div>
               </div>
             </div>
+
+            <!-- grid icon entry three -->
             <div class="col-lg-4 col-md-6 grid-item">
               <div class="listing-item ps-0">
                 <div class="position-relative">
                   <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-2.jpg" alt="Wimbledon"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">IN PROGRESS</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-3.jpg" alt="Modular Synth"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Check it out!</span>
                       <svg class="svg-icon text-primary svg-icon-sm ms-1">
                         <use xlink:href="#arrow-right-1"> </use>
                       </svg>
                     </p></a>
                 </div>
                 <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Wimbledon</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    <h2 class="h5 listing-item-heading">Project: Modular Synth</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">Interconnected effects and signal generator modules for making music.</p>
                 </div>
               </div>
             </div>
+
+            <!-- grid icon entry four -->
             <div class="col-lg-4 col-md-6 grid-item">
               <div class="listing-item ps-0">
                 <div class="position-relative">
                   <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-3.jpg" alt="Tour de France"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">IN PROGRESS</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-4.jpg" alt="Smart Clothes"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Check it out!</span>
                       <svg class="svg-icon text-primary svg-icon-sm ms-1">
                         <use xlink:href="#arrow-right-1"> </use>
                       </svg>
                     </p></a>
                 </div>
                 <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Tour de France</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <h2 class="h5 listing-item-heading">Project: Smart Clothes</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">Our capstone project, using clothes with sensors for tracking workout form.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-4.jpg" alt="Haunted House"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Haunted House</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-5.jpg" alt="Best Friends"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Best Friends</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-6.jpg" alt="Banana Lady"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Banana Lady</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-7.jpg" alt="Be cool"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Be cool</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-8.jpg" alt="Spread the Love"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Spread the Love</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 grid-item">
-              <div class="listing-item ps-0">
-                <div class="position-relative">
-                  <ul class="list-inline listing-tags m-0">
-                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-9.jpg" alt="Grounghog Day"/>
-                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
-                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                        <use xlink:href="#arrow-right-1"> </use>
-                      </svg>
-                    </p></a>
-                </div>
-                <div class="py-3"><a class="reset-anchor" href="detail.html">
-                    <h2 class="h5 listing-item-heading">Grounghog Day</h2></a>
-                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
+
+      <!-- footer start (end of page)-->
       <footer class="text-muted" style="background: #0d0d0d">
         <div class="container-fluid py-5">
           <div class="row">
             <div class="col-lg-10 mx-auto">
+
               <div class="row gy-4">
                 <div class="col-lg-4">
-                  <h2 class="h4 text-white mb-4">About me</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <ul class="list-unstyled text-sm mb-0 text-white">
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-globe-americas"></i>4274  Williams Avenue, California.</a></li>
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-mobile"></i>123-456-789</a></li>
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-envelope"></i>Jason@example.com</a></li>
-                  </ul>
+                  <h2 class="h4 text-white mb-4">About Me</h2>
+                  <p class="text-sm">Hi! I'm a final year engineering student at Simon Fraser University. I've got a passion for electronics, software, AI, and music. I especially love when I can combine them all together.</p>
                 </div>
+
                 <div class="col-lg-4">               
-                  <h2 class="h4 text-white mb-4">Follow me</h2>
+                  <h2 class="h4 text-white mb-4">Follow Me</h2>
                   <ul class="list-inline">
                     <div class="row text-white text-sm">
                       <div class="col-6">
                         <ul class="list-unstyled">
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-facebook-f"></i>Facebook</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-twitter"></i>Twitter</a></li>
                           <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-instagram"></i>Instagram</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-dribbble"></i>Dribbble</a></li>
-                        </ul>
-                      </div>
-                      <div class="col-6">
-                        <ul class="list-unstyled">
                           <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-linkedin-in"></i>Linkedin</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-pinterest"></i>Pinterest</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-vimeo"></i>Vimeo</a></li>
                           <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-youtube"></i>Youtube</a></li>
                         </ul>
                       </div>
                     </div>
                   </ul>
                 </div>
+
                 <div class="col-lg-4">
-                  <h2 class="h4 text-white mb-4">News</h2>
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-1.jpg" alt="Design is all" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Design is all</p>
-                            <p class="small mb-1"></p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-2.jpg" alt="Power is art" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Power is art</p>
-                            <p class="small mb-1">23 Dec 2019</p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
+                  <h2 class="h4 text-white mb-4">Contact Me</h2>
+                  <ul class="list-unstyled text-sm mb-0 text-white">
+                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-globe-americas"></i>Vancouver, British Columbia</a></li>
+                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-mobile"></i>778-833-2536</a></li>
+                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-envelope"></i>skakulav@sfu.ca</a></li>
                   </ul>
                 </div>
+
               </div>
             </div>
           </div>
@@ -297,7 +202,7 @@
               <div class="col-lg-10 mx-auto">
                 <div class="row text-white">
                   <div class="col-md-6 text-center text-md-start">
-                    <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Your company.</span></p>
+                    <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Shreyas Kakulavarapu.</span></p>
                   </div>
                   <div class="col-md-6 text-center text-md-end">
                     <p class="text-sm mb-0">
